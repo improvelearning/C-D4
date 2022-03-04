@@ -1,0 +1,33 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    string username;
+    string playagain;
+
+    
+    cout << "What is your name : \n";
+    cin >> username;
+    cout << "Welcome " << username << endl;
+
+    cout << "Do you want to play again : ";
+    cin >> playagain;
+    
+    if (playagain == "Y" )
+    {
+        for (int i = 0 ; i < 1 ; i++)
+        {
+            cout << "test successful\n";
+        }
+    }
+    else if (playagain != "Y" )
+    {
+        cout << "error value\n";
+    }
+
+
+    return 0;
+}
